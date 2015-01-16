@@ -1,5 +1,55 @@
 /*
 
 HalfWit coffee roaster store
+## Layout requirements
 
+* The header should be full-width with a background image.
+* The paragraphs at the top should be in a 2-column grid.
+* The quote in the header should be centered.
+* The individual coffee options should conform to a grid. The number of columns is up to you.
+* At the bottom, add a `<footer>` and include at least 3 links to your favorite coffee companies or coffeeshops. Use a grid.
 */
+
+body {
+    font-size: 25px;
+}
+
+header {
+    width: 100%;
+    background-image: url(/images/coffee-beans.jpg);
+    background-size: 50%;
+    height: 200px;
+    background-repeat: repeat-x;
+    background-position: top center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    background-color: rgba(0, 0,0, .7);
+}
+
+p  {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    padding: 30px 10px;
+}
+
+.offset {
+    padding-top: 55px;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+.col25 {
+    width: 25%;
+    display: inline-block;
+    padding: 10px;
+}
